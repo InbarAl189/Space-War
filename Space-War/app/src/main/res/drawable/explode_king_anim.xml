@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+
+    <item
+        android:drawable="@drawable/explode_king_first"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/explode_king_second"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/explode_king_third"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/explode_king_fourth"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/explode_king_one"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/explode_king_two"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/explode_king_three"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/explode_king_four"
+        android:duration="180"/>
+
+</animation-list>

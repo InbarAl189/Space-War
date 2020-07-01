@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blueDark">#2F333F</color>
+    <color name="blueLight">#94ACD5</color>
+    <color name="green">#45BC62</color>
+    <color name="orange">#EAAd43</color>
+    <color name="orangeDark">#FF5722</color>
+    <color name="kingLevel">#FF0000</color>
+
+
+
+</resources>

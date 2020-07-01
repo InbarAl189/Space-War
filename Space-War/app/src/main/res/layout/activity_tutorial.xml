@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TutorialActivity"
+    android:id="@+id/linear_layout">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame_layout">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background_one"
+        android:scaleType="fitXY"
+        android:outlineSpotShadowColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        android:src="@drawable/tutorial_pattern"/>
+
+
+    <ImageView
+        android:id="@+id/background_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:scaleType="fitXY"
+        android:src="@drawable/tutorial_pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tutorial_tv"
+        android:text="Tutorial"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aldrich"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:shadowRadius="2"
+        android:shadowColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/asteroid_imageView"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_gravity="center|top"
+        android:src="@drawable/asteroid_anim"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/enemy_imageView"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_gravity="center|top"
+        android:src="@drawable/enemy_red_anim"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/gift_imageView"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_gravity="center|top"
+        android:src="@drawable/ic_gift"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/circle_imageView"
+        android:visibility="gone"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_gravity="center|top"
+        android:src="@drawable/tutorial_circle"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:id="@+id/shot_imageView"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/laser_yellow" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/player_imageView"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/spaceship_orange_new" />
+
+    <ImageView
+        android:id="@+id/broken_heart"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="120dp"
+        android:fillAfter="false"
+        android:visibility="invisible"
+        android:src="@drawable/ic_broken_heart"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="Skip"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="5dp"
+        android:layout_gravity="right|bottom"
+        android:fontFamily="@font/aldrich"
+        android:textColor="@color/black"
+        android:background="@drawable/skip_btn"
+        android:id="@+id/skip_btn"/>
+
+ </FrameLayout>
+</LinearLayout>

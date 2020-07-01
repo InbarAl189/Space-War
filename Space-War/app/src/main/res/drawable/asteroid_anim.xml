@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/asteroid_first"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/asteroid_second"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/asteroid_third"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/asteroid_fourth"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/asteroid_fifth"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/asteroid_sixth"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/asteroid_seventh"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/asteroid_eigth"
+        android:duration="180"/>
+
+</animation-list>

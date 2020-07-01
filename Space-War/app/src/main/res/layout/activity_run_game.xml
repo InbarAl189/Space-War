@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_layout">
+
+        <ImageView
+            android:id="@+id/background_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/stage_one_pattern"/>
+
+        <ImageView
+            android:id="@+id/background_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/stage_one_pattern"/>
+
+        <ImageView
+            android:id="@+id/background_fade_out"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:src="@drawable/stage_one_pattern"/>
+
+        <LinearLayout
+            android:id="@+id/linear_settings_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/home_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:background="@drawable/ic_home"/>
+
+            <ImageView
+                android:id="@+id/heart_one"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:layout_height="30dp"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/ic_hearts"/>
+
+            <ImageView
+                android:id="@+id/heart_two"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_hearts"/>
+
+            <ImageView
+                android:id="@+id/heart_three"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_hearts"/>
+
+
+            <Button
+                android:id="@+id/pause_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="70dp"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:background="@drawable/ic_paused"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/score_tv"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:background="@drawable/skip_btn"
+            android:layout_gravity="left|top"
+            android:gravity="center"
+            android:layout_marginTop="-10dp"
+            android:textAlignment="center"
+            android:text="@string/score"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/next_level_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-10dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:shadowRadius="2"
+            android:shadowColor="@color/black"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text = "@string/level_one"
+            android:fontFamily="@font/aldrich"/>
+
+        <Button
+            android:id="@+id/play_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:background="@drawable/ic_play"/>
+
+
+
+        <ImageView
+            android:id="@+id/broken_heart"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="80dp"
+            android:fillAfter="false"
+            android:visibility="invisible"
+            android:src="@drawable/ic_broken_heart"/>
+
+
+
+        <ImageView
+            android:id="@+id/player_imageView"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/spaceship_orange_new"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:id="@+id/shot_imageView"
+            android:outlineSpotShadowColor="@color/black"
+            android:layout_marginBottom="60dp"
+            android:visibility="invisible"
+            android:layout_gravity="center|bottom"
+            android:src="@drawable/laser_yellow"/>
+
+
+        <!--                gift-->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/gift_imageView"
+            android:outlineSpotShadowColor="@color/black"
+            android:layout_gravity="center|top"
+            android:src="@drawable/ic_gift"/>
+
+
+        <!--                enemies and asteroids-->
+        <ImageView
+            android:id="@+id/asteroid_one_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:src="@drawable/asteroid_anim"/>
+
+        <ImageView
+            android:id="@+id/asteroid_two_imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="gone"
+            android:src="@drawable/asteroid_anim"/>
+
+        <ImageView
+            android:id="@+id/asteroid_three_imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:src="@drawable/asteroid_anim"/>
+
+        <ImageView
+            android:id="@+id/enemy_king_shot_one"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:src="@drawable/fire_shot"/>
+
+        <ImageView
+            android:id="@+id/enemy_king_imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:visibility="gone"
+            android:src="@drawable/king_enemy_anim"/>
+
+        <ImageView
+            android:id="@+id/enemy_one_imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:src="@drawable/enemy_red_anim"/>
+
+        <ImageView
+            android:id="@+id/enemy_two_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:src="@drawable/enemy_red_anim"/>
+
+
+        <ImageView
+            android:id="@+id/enemy_three_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:src="@drawable/enemy_red_anim"/>
+
+        <ImageView
+            android:id="@+id/enemy_four_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:src="@drawable/enemy_blue_anim"/>
+
+        <ImageView
+            android:id="@+id/enemy_five_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:src="@drawable/enemy_yellow_anim"/>
+
+        <ImageView
+            android:id="@+id/enemy_six_imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="gone"
+            android:src="@drawable/enemy_green_anim"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

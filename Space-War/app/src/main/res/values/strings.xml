@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Space War: Save The Galaxy</string>
+    <string name="main_play_game">Play Game</string>
+    <string name="main_score_board">High Scores</string>
+    <string name="progress_bar_message">Loading...</string>
+    <string name="stage">Stage 1</string>
+    <string name="loading">Loading...</string>
+
+
+    <string-array name="settings_array">
+        <item>@string/sound</item>
+        <item>@string/music</item>
+        <item>@string/vibrate</item>
+    </string-array>
+
+    <string name="music">Music</string>
+    <string name="sound">Sound</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="score">Score:</string>
+    <string name="end_game_score">Your score is:</string>
+    <string name="enter_name">Enter your name:</string>
+    <string name="ok">OK</string>
+    <string name="move_space">Move the space ship</string>
+    <string name="kill_enemies">Kill the enemies</string>
+    <string name="take_gifts">Take the gifts</string>
+    <string name="finish_tutorial">Finish!</string>
+    <string name="exit_str">Are you sure you want to exit ?</string>
+    <string name="yes_str">Yes</string>
+    <string name="no_str">No</string>
+    <string name="level_two">Level 2</string>
+    <string name="level_three">Level 3</string>
+    <string name="level_one">Level 1</string>
+    <string name="enter_your_name_msg">Please enter your name</string>
+    <string name="avoid_asteroids">Avoid the asteroids</string>
+    <string name="collision_alert_tutorial">Watch out !</string>
+    <string name="go">GO!</string>
+    <string name="settings">Settings:</string>
+    <string name="scrolling_text">Come back soon for new levels and new challenges!!!</string>
+    <string name="level_king">Meet the king...</string>
+
+
+</resources>
