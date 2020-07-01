@@ -1,14 +1,6 @@
 # Space War
  ## Space War : save the galaxy - android game, developed as part of Android course
  
-**Main Features:**<br />
-Fragments,
-Animations,
-Fonts,
-External APIs,
-Sounds,
-Effects,
-Material showcase view,
 
 **Watch game video:** https://youtu.be/ijifJT2VqIs
 
