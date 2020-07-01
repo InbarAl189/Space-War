@@ -5,7 +5,7 @@
 **Watch game video:** https://youtu.be/ijifJT2VqIs
 
 
-screenshots:
+**screenshots:**
 
 [![main.jpg](https://i.postimg.cc/MHxrfmtf/main.jpg)](https://postimg.cc/zbtk9Wsq)
 [![game.jpg](https://i.postimg.cc/G2Nmc9jf/game.jpg)](https://postimg.cc/r01kjV3G)
