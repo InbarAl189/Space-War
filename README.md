@@ -1,5 +1,5 @@
 # Space War
- ## Space War : save the galaxy - android game, developed as part of Android course
+ ## Space War : save the galaxy - android game, developed as part of Android course using android studio
  
 
 **Watch game video:** https://youtu.be/ijifJT2VqIs
