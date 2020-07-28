@@ -3,7 +3,7 @@
 **Android game, developed as part of Android course using android studio.**
  
  The game includes animations, 4 levels in ascending difficulty, 5 types of enemies. <br>
- Game target: develop agility and attention, avoid enemies, collect points, and break personal records.
+ Game targets: develop agility and attention, avoid enemies, collect points, and break personal records.
 
 **Watch game video:** https://youtu.be/ijifJT2VqIs
 
